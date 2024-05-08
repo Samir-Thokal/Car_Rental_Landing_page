@@ -1,0 +1,58 @@
+.Homes {
+    margin-top: 500px;
+    text-align: center;
+  }
+  .Header {
+    background-color: #333;
+    padding: 20px;
+  }
+  
+  .Image {
+    width: 100%;
+  }
+  
+  .Container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+  }
+  
+  .LeftContainer {
+    flex: 1;
+    text-align: left;
+    padding-right: 10px;
+  }
+  
+  .RightContainer {
+    flex: 1;
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  .Deal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .Logo {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

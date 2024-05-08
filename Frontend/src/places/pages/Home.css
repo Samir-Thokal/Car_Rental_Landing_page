@@ -1,0 +1,279 @@
+/* Home.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+.home-content {
+    margin-top: 170px;
+  }
+  
+  .main-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 40px;
+  }
+  
+  .red-text {
+    color: #ff6a00;
+  }
+  
+  .description {
+    font-size: 15px;
+    font-weight: bold;
+    color: #696969;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+
+  .container {
+    margin-left: 150px;
+    margin-right: 150px;
+    /* background-color: white; */
+  padding: 20px;
+
+  }
+  .right-container {
+    margin-top: 100px;
+  }
+  .left-container {
+    margin-top: 100px;
+    position: relative;
+    z-index: 1;
+  }
+
+.buttons {
+    margin-top: 20px;
+   
+  }
+  .btn-primary {
+    background-color: #ff6a00;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-top: 10px;
+  }
+  
+  .btn-secondary {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: larger;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .car-image {
+    position: absolute;
+    top: 0;
+    margin-top: 270px;
+    left: +730px;
+    width: auto;
+    height: auto;
+  }
+
+.Heading{
+    margin-top: 230px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.form-table {
+    margin-top: 30px;
+    width: 100%;
+  }
+  
+  .form-table td {
+    padding: 10px;
+  }
+  
+  .form-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .form-dropdown {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-btn {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+  }
+  .steps{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    
+  }
+  .step{
+    text-align: center;
+    padding: 30px;
+  }
+  .step-icon{
+    width: 100px;
+    height: 100px;
+  }
+  .steps-icon{
+    width: 145px;
+    height: 96px;
+  }
+  .Step-info{
+    margin-top: 100px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .Step-info h1{
+   font-weight: bolder;
+  }
+  .Step-btm-info{
+    margin-top: 100px;
+    text-align: Center;
+    
+  }
+  .second{
+    font-weight: bold;
+    font-size: 15px;
+    color: grey;
+  }
+  .first{
+    font-weight: bolder;
+  }
+
+  /* Information of car */
+
+  /* .car-row {
+    display: flex;
+    margin-top: 0%;
+  } */
+  
+  /* .car-list {
+    flex: 1;
+  } */
+  
+  .car-list table {
+    width: 200px;
+    border-collapse: collapse;
+    text-align: center;
+    top: +1930px;
+    position: absolute;
+  }
+  
+  .car-list tbody tr {
+    cursor: pointer;
+  }
+  
+  .car-list tbody tr.active {
+    background-color: #ff6a00;
+  }
+  
+  .car-list td {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .car-info {
+    flex: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .car-details {
+    text-align: center;
+  }
+  
+  .car-img {
+    display: flex;
+    max-width: 500px;
+    justify-content: center;
+    position: absolute;
+    left: +450px;
+    top: +1920px;
+  }
+  
+  .car-info-table {
+    width: 100px;
+    font-weight: bold;
+    padding: 10px;
+    position: absolute;
+    left: +970px;
+    top: +1920px;
+    width: 300px;
+    height: 10px;
+  }
+  
+  .car-info-table th {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    background-color: #ff6a00;
+    left: +950px;
+
+  }
+  
+  .car-info-table td {
+    padding: 7px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    background-color: #f2f2f2;
+    left: +1050px;
+    width: 300px;
+    height: 10px;
+  }
+  
+  .reserve-btn {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 500px;
+    left: +982px;
+    top: +1710px;
+    width: 278px;
+    position: absolute;
+  }
+  
+  .reserve-btn:hover {
+    background-color: #ff6a00
+  }
